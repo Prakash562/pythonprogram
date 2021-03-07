@@ -1,0 +1,9 @@
+year = int(input())
+semester = int(input())
+branch = input()
+if (year == 1 and semester == 1):
+    print("books that are available for the 1st semester")
+if (year == 2 and semester == 2):
+    print("books that are available for the 2nd semester")
+else:
+    print("no data available")
